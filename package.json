@@ -1,0 +1,24 @@
+{
+  "name": "greenbin-combined",
+  "version": "1.0.0",
+  "description": "GreenBin — AI-Powered Smart Waste Management Platform (Combined Frontend + Backend + AI Service)",
+  "main": "backend/server.js",
+  "scripts": {
+    "build": "cd frontend && npm run build",
+    "start": "cmd /c start http://localhost:5005 && node backend/server.js",
+    "dev": "cmd /c start http://localhost:5005 && node backend/server.js"
+  },
+  "keywords": [
+    "waste-management",
+    "ai",
+    "react",
+    "express",
+    "sustainability",
+    "greenbin"
+  ],
+  "author": "GreenBin Team",
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-git": "^1.42.2"
+  }
+}

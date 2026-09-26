@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Production builds
+dist/
+build/
+
+# Environment & Secrets
+.env
+.env.local
+.env.production
+
+# Uploads & Temp
+uploads/
+/tmp/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
